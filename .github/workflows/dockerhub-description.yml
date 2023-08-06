@@ -20,6 +20,6 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
           repository: thucpk/chatgpt-telegram-bot
           short-description: |
-            ChatGPT Telegram Bot, https://github.com/thucpk/chatgpt-telegram-bot
+            ChatGPT Telegram Bot, https://github.com/tp-open/chatgpt-telegram-bot
           enable-url-completion: true
           readme-filepath: ./docs/docker-readme.md
