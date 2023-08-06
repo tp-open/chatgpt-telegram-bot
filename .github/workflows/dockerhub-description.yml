@@ -17,7 +17,7 @@ jobs:
         uses: peter-evans/dockerhub-description@v3
         with:
           username: thucpk
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKER_TOKEN }}
           repository: thucpk/chatgpt-telegram-bot
           short-description: |
             ChatGPT Telegram Bot, https://github.com/thucpk/chatgpt-telegram-bot
