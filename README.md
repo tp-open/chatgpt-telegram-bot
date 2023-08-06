@@ -1,7 +1,7 @@
 # ChatGPT Telegram Bot: minimal configuration for self-host.
-[![Release](https://github.com/thucpk/chatgpt-telegram-bot/actions/workflows/release.yml/badge.svg)](https://github.com/thucpk/chatgpt-telegram-bot/actions/workflows/release.yml)
+[![Release](https://github.com/tp-open/chatgpt-telegram-bot/actions/workflows/release.yml/badge.svg)](https://github.com/tp-open/chatgpt-telegram-bot/actions/workflows/release.yml)
 
-[Project](https://github.com/thucpk/chatgpt-telegram-bot) fork from [karfly/ChatGPT](https://github.com/karfly/chatgpt_telegram_bot) and customized to minimal configuration for self-host.
+[Project](https://github.com/tp-open/chatgpt-telegram-bot) fork from [karfly/ChatGPT](https://github.com/karfly/chatgpt_telegram_bot) and customized to minimal configuration for self-host.
 
 ## Get started
 1. Get your [OpenAI API](https://openai.com/api/) key

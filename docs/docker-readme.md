@@ -65,4 +65,4 @@ services:
 
 ## License
 Copyright © 2023 Thuc Phan
-Licensed under the MIT License. See [LICENSE](https://github.com/thucpk/chatgpt-telegram-bot/blob/master/LICENSE)
+Licensed under the MIT License. See [LICENSE](https://github.com/tp-open/chatgpt-telegram-bot/blob/master/LICENSE)
