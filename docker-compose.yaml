@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  chatgpt_telegram_bot:
+    image: thucpk/chatgpt-telegram-bot
+    container_name: chatgpt_telegram_bot
+    ports:
+      - 8000:8000
+    restart: always
+    env_file:
+      - .env

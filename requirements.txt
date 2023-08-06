@@ -1,0 +1,10 @@
+python-telegram-bot[rate-limiter]==20.1
+openai>=0.27.0
+tiktoken>=0.3.0
+PyYAML==6.0
+pymongo==4.3.3
+python-dotenv==1.0.0
+pydub==0.25.1
+pydantic==1.8.2
+uvicorn==0.23.1
+starlette==0.31.0

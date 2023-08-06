@@ -1,0 +1,25 @@
+name: Update Docker Hub Description
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - README.md
+      - .github/workflows/dockerhub-description.yml
+      - docs/docker-readme.md
+jobs:
+  dockerHubDescription:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Docker Hub Description
+        uses: peter-evans/dockerhub-description@v3
+        with:
+          username: thucpk
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: thucpk/chatgpt-telegram-bot
+          short-description: |
+            ChatGPT Telegram Bot, https://github.com/thucpk/chatgpt-telegram-bot
+          enable-url-completion: true
+          readme-filepath: ./docs/docker-readme.md
