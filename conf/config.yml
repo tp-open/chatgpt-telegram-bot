@@ -2,7 +2,7 @@
 allowed_telegram_usernames:
 - thucpk
 
-new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
+new_dialog_timeout: 21600  # new dialog starts after timeout (in seconds)
 return_n_generated_images: 1
 n_chat_modes_per_page: 5
 enable_message_streaming: true  # if set, messages will be shown to user word-by-word
