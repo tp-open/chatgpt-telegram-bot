@@ -57,5 +57,5 @@ docker-compose up --build
 - `/help` – Show help
 
 ## LICENSE
-Copyright © 2023 Thuc Phan
+Copyright © 2023 TP-Open  
 Licensed under the MIT License. See [LICENSE](LICENSE) for details.
