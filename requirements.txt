@@ -7,4 +7,4 @@ python-dotenv==1.0.0
 pydub==0.25.1
 pydantic==1.8.2
 uvicorn==0.23.1
-starlette==0.31.0
+starlette==0.36.2
